@@ -46,18 +46,17 @@
       </textClass>
     </profileDesc>
     <encodingDesc>
-      <refsDecl n="CTS">
-        <!-- Nos textes ne se composent que d'un seul niveau, c'est pourquoi nous avons créé deux <cRefPattern> qui récupèrent les vers-->
-  <cRefPattern 
-      n="level1"
-      matchPattern="(\w+)"
-      replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
-      <p>level1 récupère les vers</p>
-  </cRefPattern>
-</refsDecl>
+    <refsDecl>
+     <cRefPattern 
+          n="level1"
+          matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+          <p>level1 récupère les vers</p>
+        </cRefPattern>
+  </refsDecl>
     </encodingDesc>
   </teiHeader>
-  <text xml:base="crnl026799472.crnl003.obvilchartes3-2">
+  <text xml:base="urn:cts:freLit:crnl026799472.crnl003.obvilchartes3-2">
     <front>
       <titlePage>
         <docTitle>
