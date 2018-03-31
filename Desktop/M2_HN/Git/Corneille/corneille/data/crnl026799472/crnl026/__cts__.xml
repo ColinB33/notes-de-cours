@@ -1,0 +1,27 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" groupUrn="urn:cts:freLit:crnl026799472"
+         urn="urn:cts:freLit:crnl026799472.crnl026" xml:lang="fr">
+    
+    <ti:title xml:lang="fr">Othon</ti:title>
+
+    <ti:edition workUrn="urn:cts:freLit:crnl026799472.crnl026" 
+      urn="urn:cts:freLit:crnl026799472.crnl026.obvilchartes26-1">
+        <ti:label xml:lang="fr">Othon</ti:label>
+        <ti:description xml:lang="fr">Tragédie histoire romaine Cinq actes</ti:description>
+        <ti:description xml:lang="fr">Théatre Classique, publié par Paul FIEVRE, Mai 2006</ti:description>
+    </ti:edition>
+    
+    <cpt:structured-metadata>
+                <dc:creator xml:lang="fr">Pierre Corneille</dc:creator>
+                <dc:title xml:lang="fr">Othon</dc:title>
+                <dc:created rdf:datatype="xsd:gYear">1664</dc:created>
+                <dc:publisher xml:lang="fr">Théâtre Classique</dc:publisher>
+                <dc:dateSubmitted rdf:datatype="xsd:gYear">2006</dc:dateSubmitted>
+                <dc:contributor>Colin Baldet</dc:contributor>
+                <dc:contributor>Mylène Maignant</dc:contributor>
+                <dc:contributor>Lucence Ing</dc:contributor>
+                <dc:contributor>Maylis Ribette</dc:contributor>
+                <dc:contributor> Pauline Lévêque</dc:contributor>
+    </cpt:structured-metadata>
+</ti:work>
